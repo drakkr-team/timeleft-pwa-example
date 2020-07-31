@@ -14,7 +14,7 @@ setInterval(function() {
 
 if('serviceWorker' in navigator) {
   navigator.serviceWorker
-           .register('/timeleft-pwa-example/sw.js')
+           .register('/timeleft-pwa-example.github.io/sw.js')
            .then(function() { console.log('Service Worker Registered'); });
 }
 
