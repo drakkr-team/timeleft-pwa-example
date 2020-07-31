@@ -1,5 +1,6 @@
 {
-  "background_color": "purple",
+  "background_color": "#191919",
+  "color": "#00FFCC",
   "description": "Exemple de PWA pour Timeleft par Drakkr !",
   "display": "fullscreen",
   "icons": [
