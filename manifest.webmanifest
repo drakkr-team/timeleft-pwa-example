@@ -10,7 +10,7 @@
       "type": "image/png"
     }
   ],
-  "name": "Timeleft - PWA Exemple",
+  "name": "Timeleft - Exemple PWA",
   "short_name": "Timeleft PWA",
   "start_url": "/timeleft-pwa-example.github.io/index.html"
 }

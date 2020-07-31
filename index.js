@@ -8,7 +8,7 @@ function randomValueFromArray(array) {
 setInterval(function() {
   let randomChoice = randomValueFromArray(images);
   document.body.style.backgroundImage = `url('images/${randomChoice}.jpg')`;
-}, 2500)
+}, 3500)
 
 // Register service worker to control making site work offline
 
@@ -30,7 +30,7 @@ window.addEventListener('beforeinstallprompt', (e) => {
   // Stash the event so it can be triggered later.
   deferredPrompt = e;
   // Update UI to notify the user they can add to home screen
-  addBtn.style.display = 'block';
+  addBtn.style.display = 'inline-block';
 
   addBtn.addEventListener('click', (e) => {
     // hide our user interface that shows our Drakkr button
