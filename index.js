@@ -8,7 +8,7 @@ function randomValueFromArray(array) {
 setInterval(function() {
   let randomChoice = randomValueFromArray(images);
   document.body.style.backgroundImage = `url('images/${randomChoice}.jpg')`;
-}, 2000)
+}, 2500)
 
 // Register service worker to control making site work offline
 

@@ -1,6 +1,6 @@
 self.addEventListener('install', function(e) {
  e.waitUntil(
-   caches.open('fox-store').then(function(cache) {
+   caches.open('drakkr-store').then(function(cache) {
      return cache.addAll([
        '/timeleft-pwa-example.github.io/',
        '/timeleft-pwa-example.github.io/index.html',
