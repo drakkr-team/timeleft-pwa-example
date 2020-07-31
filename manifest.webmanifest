@@ -1,0 +1,15 @@
+{
+  "background_color": "purple",
+  "description": "Exemple de PWA pour Timeleft par Drakkr !",
+  "display": "fullscreen",
+  "icons": [
+    {
+      "src": "icon/timeleft-icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ],
+  "name": "Timeleft - PWA Exemple",
+  "short_name": "Foxes",
+  "start_url": "/timeleft-pwa-example/index.html"
+}
